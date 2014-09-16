@@ -10,6 +10,30 @@
 
 ;;;============================================================================
 
+(define-library (http://github.com/feeley/digest)
+
+  (export open-digest
+          close-digest
+
+          digest-update-subu8vector
+          digest-update-u8
+          digest-update-u16-le
+          digest-update-u16-be
+          digest-update-u32-le
+          digest-update-u32-be
+
+          digest-string
+          digest-substring
+          digest-u8vector
+          digest-subu8vector
+          digest-file)
+
+  (import (gambit))
+
+  (begin
+
+;;;----------------------------------------------------------------------------
+
 (declare
  (standard-bindings)
  (extended-bindings)
@@ -1431,5 +1455,7 @@
 )
 
  (test-digest))
+
+))
 
 ;;;============================================================================
