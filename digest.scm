@@ -10,7 +10,7 @@
 
 ;;;============================================================================
 
-(define-library (http://github.com/feeley/digest)
+(define-library (https://github.com/feeley/digest)
 
   (export open-digest
           close-digest
@@ -32,7 +32,7 @@
 
   (begin
 
-;;;----------------------------------------------------------------------------
+;;;============================================================================
 
 (declare
  (standard-bindings)
