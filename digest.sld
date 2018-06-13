@@ -1,8 +1,8 @@
 ;;;============================================================================
 
-;;; File: "digest.scm"
+;;; File: "digest.sld"
 
-;;; Copyright (c) 2005-2014 by Marc Feeley, All Rights Reserved.
+;;; Copyright (c) 2005-2018 by Marc Feeley, All Rights Reserved.
 
 ;;;============================================================================
 
@@ -10,7 +10,7 @@
 
 ;;;============================================================================
 
-(define-library (https://github.com/feeley/digest)
+(define-library (digest)
 
   (export open-digest
           close-digest
