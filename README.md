@@ -3,4 +3,4 @@ digest
 
 digest package for Gambit Scheme
 
-test30
+test34
